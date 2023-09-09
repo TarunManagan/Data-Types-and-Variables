@@ -32,11 +32,6 @@ int main() {
 return 0;
 }
 /*  OUTPUT
-Enter any integer value: 7
-Enter any floating point value: 8.90
-Enter any double floating point value: 76.45632773
-Enter any Character value: a
-Enter any boolean value: false
 Value of Integer_var is: 7
 Value of Float_var is: 8.9
 Value of Double_var is: 76.4563
