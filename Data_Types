@@ -1,0 +1,43 @@
+/*  PRN:22070123118
+    Experiment no:1(c)
+*/
+#include <iostream>
+using namespace std;
+
+int main() {
+   int Integer_var; //Integer takes whole numbers --> 1,2,4, etc. --> 4 bytes
+   float Float_var; //Float takes fractional numbers upto 7 decimal places --> 1.903, 0.9243 etc. --> 4 bytes
+   double Double_var; //Double takes fractional numbers upto 15 decimal places --> 1.9037849, 0.92438935364 etc. --> 8 bytes
+   char Char_var; //Character takes single characters enclosed in single quotes --> 'a', 'H', '$' etc. --> 1 byte
+   bool flag; //Boolean takes either true (1) or false (0) --> 1 byte
+   
+   cout<< "Enter any integer value: ";
+   cin >> Integer_var;
+   cout<< "Enter any floating point value: ";
+   cin >>Float_var ;
+   cout<< "Enter any double floating point value: ";
+   cin >> Double_var;
+   cout<< "Enter any Character value: ";
+   cin >> Char_var;
+   cout<< "Enter any boolean value: ";
+   cin >> flag;
+   
+   cout<<"Value of Integer_var is: "<< Integer_var<<endl; //Printing the value Integer_var
+   cout<<"Value of Float_var is: "<< Float_var<<endl; //Printing the value Float_var
+   cout<<"Value of Double_var is: "<< Double_var<<endl; //Printing the value Double_var
+   cout<<"Value of Char_var is: "<< Char_var<<endl; //Printing the value Char_var
+   cout<<"Value of flag is: "<< flag<<endl; //Printing the value flag
+return 0;
+}
+/*  OUTPUT
+Enter any integer value: 3
+Enter any floating point value: 5.67
+Enter any double floating point value: 7.8904
+Enter any Character value: t
+Enter any boolean value: 1345
+Value of Integer_var is: 3
+Value of Float_var is: 5.67
+Value of Double_var is: 7.8904
+Value of Char_var is: t
+Value of flag is: 1
+*/
