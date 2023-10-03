@@ -1,6 +1,4 @@
-/*  PRN:22070123118
-    Experiment no:1(d)
-*/
+
 #include <iostream>
 using namespace std;
 
@@ -10,8 +8,8 @@ int main() {
    double Double_var;
    char Char_var;
    bool flag;
-   
-   cout<<"The size of Integer_var is: "<< sizeof(Integer_var)<<endl; //sizeof operator is used to find the size of the memory allocated to that particular data type
+   //'sizeof' operator is used to find the size of the memory allocated to that particular data type.
+   cout<<"The size of Integer_var is: "<< sizeof(Integer_var)<<endl; e
    cout<<"The size of Float_var is: "<< sizeof(Float_var)<<endl;
    cout<<"The size of Double_var is: "<< sizeof(Double_var)<<endl;
    cout<<"The size of Char_var is: "<< sizeof(Char_var)<<endl;
