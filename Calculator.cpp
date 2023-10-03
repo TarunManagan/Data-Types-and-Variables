@@ -1,6 +1,4 @@
-/*  PRN:22070123118
-    Experiment no:1(b)
-*/
+
 #include<iostream>
 using namespace std;
 
