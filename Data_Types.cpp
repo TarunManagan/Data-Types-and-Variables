@@ -1,15 +1,13 @@
-/*  PRN:22070123118
-    Experiment no:1(c)
-*/
+
 #include <iostream>
 using namespace std;
 
 int main() {
-   int Integer_var;
-   float Float_var;
-   double Double_var;
-   char Char_var;
-   bool flag;
+   int Integer_var; // INT takes only integer values
+   float Float_var; // FLOAT takes only floating point values
+   double Double_var; // DOUBLE also takes floating values but of greater size than float does
+   char Char_var; // CHAR takes characters as values
+   bool flag; // BOOL takes either TRUE or FALSE
    const float pi = 3.14; // Constant is used to fix the value of any variable --> Cannot be changed by the user
    
    cout<< "Enter any integer value: ";
